@@ -1,0 +1,87 @@
+body {
+  background-color: #b7dae2;
+  color: #5c5d5e;
+  margin: 0;
+}
+
+section {
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #d8bcc0;
+  color: #5c5d5e;
+  padding: 4em;
+  position: relative;
+}
+
+header::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  background-color: #d8bcc0;
+
+}
+
+
+.pizza {
+  background-image: url(afficheweb.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 90vh;
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.mywork {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.mywork ul {
+  padding: 0;
+  list-style-type: none;
+   display: flex;
+ flex-wrap: wrap;
+   justify-content: space-around;
+/* align-content: flex-start; */
+}
+
+.mywork li {
+  max-width: 50%;
+}
+
+
+.mywork img {
+  width: 100%;
+}
+
+.pizza img{
+  width: 100%;
+}
+
+footer {
+  background-color: #80a5ad;
+  color: #ffffff;
+  padding: 2em;
+}
+
+footer a {
+  color : #ffffff;
+  text-decoration: none;
+}
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin : 6px;
+}
