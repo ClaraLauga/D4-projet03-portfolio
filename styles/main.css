@@ -10,7 +10,7 @@ section {
 }
 
 header {
-  background-color: #d8bcc0;
+  background-color: #f8c6ce;
   color: #5c5d5e;
   padding: 4em;
   position: relative;
@@ -25,7 +25,7 @@ header::after {
   bottom: -22px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  background-color: #d8bcc0;
+  background-color: #f8c6ce;
 
 }
 
